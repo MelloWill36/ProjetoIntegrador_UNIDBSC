@@ -19,6 +19,6 @@
 5 - Testes de Endpoints ☑<p/>
 6 - Fazer busca automática de Rua, Cidade, Estado pelo CEP via API ☑<p/>
 
-![](https://github.com/MelloWill36/CRUD-API/blob/main/GifCrudAPI.gif)
+![](https://github.com/MelloWill36/CRUD_API_SpringBoot_com_JPA_e_H2/blob/main/GifCrudAPI.gif)
 
  ### https://youtu.be/a_RnMegVL34 <br />
