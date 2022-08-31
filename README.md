@@ -5,7 +5,6 @@
 4 - Ao DELETAR o cliente, todas as informações relacionadas à esse cliente, também serão deletadas ☑ <p/>
 5 - Pode ser usado qualquer banco de dados ☑ <p/>
 6 - Tabela de CLIENTE, Tabela de TELEFONE, Tabela de ENDEREÇO e Tabela de CLIENTE_TELEFONE ☑ <p/>
-0 - Criação de Login como diferencial (ainda trabalhando nessa etapa)<p/>
 
 # Execução
 1 - Criação de projeto Spring Boot ☑ <p/>
