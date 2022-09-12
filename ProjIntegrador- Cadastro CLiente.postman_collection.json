@@ -1,0 +1,88 @@
+{
+	"info": {
+		"_postman_id": "4c6b9c84-52d7-42c4-aee6-efc2f5d8bcab",
+		"name": "ProjIntegrador- Cadastro CLiente",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "17686758"
+	},
+	"item": [
+		{
+			"name": "POST",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"nome\": \"William Mello\",\r\n    \"apelido\": \"W9ll\",\r\n    \"cpf\": \"061071081-66\",\r\n    \"email\": \"mello.william01@gmail.com\",\r\n    \"telefone\": [\r\n        {\r\n            \"apelido\": \"Celular\",\r\n            \"ddd\": 41,\r\n            \"numero\": \"998559805\",\r\n            \"ativo\": true\r\n        }\r\n    ],\r\n    \"cep\": \"81265223\",\r\n     \"endereco\": {\r\n        \"numero\": 111,\r\n        \"complemento\": \"casa\"\r\n    }\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/cliente",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"cliente"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/cliente",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"cliente"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Update",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"nome\": \"William Mello\",\r\n    \"apelido\": \"W9ll\",\r\n    \"cpf\": \"061071081-66\",\r\n    \"email\": \"mello.william01@gmail.com\",\r\n    \"telefone\": [\r\n        {\r\n            \"apelido\": \"Celular\",\r\n            \"ddd\": 41,\r\n            \"numero\": \"998559805\",\r\n            \"ativo\": true\r\n        }\r\n    ],\r\n    \"cep\": \"81265223\",\r\n     \"endereco\": {\r\n        \"numero\": 111,\r\n        \"complemento\": \"casa\"\r\n    }\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": ""
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "DEL",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": ""
+				}
+			},
+			"response": []
+		}
+	]
+}
