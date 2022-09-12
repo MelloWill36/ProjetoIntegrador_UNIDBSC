@@ -1,0 +1,19 @@
+{
+    "nome": "William Mello",
+    "apelido": "W9ll",
+    "cpf": "061071081-66",
+    "email": "mello.william@gmail.com",
+    "telefone": [
+        {
+            "apelido": "Celular",
+            "ddd": 41,
+            "numero": "998987766",
+            "ativo": true
+        }
+    ],
+    "cep": "81240000",
+     "endereco": {
+        "numero": 111,
+        "complemento": "casa"
+    }
+}
